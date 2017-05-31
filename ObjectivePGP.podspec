@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'ObjectivePGP/**/*.{h,m}'
   s.public_header_files = 'ObjectivePGP/**/*.h'
+  s.prefix_header_file = 'ObjectivePGP/ObjectivePGP-Prefix.pch'
 
   s.dependency 'OpenSSL-Universal'
   s.requires_arc = true
